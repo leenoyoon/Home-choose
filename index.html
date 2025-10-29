@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+    <link id="bootstrap-ltr" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet" />
+    <link id="bootstrap-rtl" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css"
+        rel="stylesheet" disabled />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="style.css" />
+    <title>Home Choose</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-expand-md fixed-top ">
+            <div class="container">
+                <a class="navbar-brand " href="#">
+                    <img src="assets/Logo.svg" alt="Logo" class="logo-img" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav nav-underline ms-auto align-items-center navbar-list">
+                        <li class="nav-item navbar-list-item nav-gap-sm">
+                            <a class="nav-link text-nowrap" aria-current="page" href="#">
+                                Home
+                            </a>
+                        </li>
+
+                        <li class="nav-item nav-underline navbar-list-item nav-gap-sm">
+                            <a class="nav-link text-nowrap" href="#">Service</a>
+                        </li>
+
+                        <li class="nav-item navbar-list-item nav-gap-sm">
+                            <a class="nav-link text-nowrap" href="#">Agent</a>
+                        </li>
+
+                        <li class="nav-item navbar-list-item nav-gap-lg">
+                            <a class="nav-link text-nowrap" href="#">Contact</a>
+                        </li>
+
+                        <li class="nav-item navbar-list-item nav-gap-sm d-flex align-items-center">
+                            <a class="nav-link text-nowrap" href="#">
+                                <img src="assets/search.svg" alt="search">
+                            </a>
+                        </li>
+
+                        <li class="nav-item navbar-list-item nav-gap-sm">
+                            <a class="nav-link text-nowrap" href="#">
+                                <img src="assets/user.svg" alt="user" />
+                            </a>
+                        </li>
+                        <li class="nav-item navbar-list-item nav-gap-sm">
+                            <a class=" btn" href="#">
+                                SignUp
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section class="hero-section ">
+            <div class="container">
+                <div class="row flex-column-reverse flex-lg-row align-items-start">
+                    <div class="col-lg-6">
+                        <h1 class="title">Find Your</br> Dream Home</h1>
+                        <p class="description">Explore our curated selection of exquisite properties
+                            meticulously tailored to your unique dream home vision</p>
+                        <div>
+                            <a class="btn" href="#">
+                                SignUp
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 d-flex justify-content-end">
+                        <img src="assets/hero.png" alt="hero image" class="img-fluid hero-image">
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="search-filter-box">
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-lg col-md-6 col-12">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" id="location" placeholder="Location">
+                                        <span class="input-group-text">
+                                            <img src="assets/location.svg" alt="location">
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg col-md-6 col-12">
+                                    <label for="type" class="form-label visually-hidden">Type</label>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" id="type" placeholder="Type">
+                                        <span class="input-group-text">
+                                            <img src="assets/home.svg" alt="home">
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg col-md-6 col-12">
+                                    <label for="price" class="form-label visually-hidden">Price Range</label>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" id="price" placeholder="Price Range">
+                                        <span class="input-group-text">
+                                            <img src="assets/price.svg" alt="price"> </span>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-auto col-md-12 col-12 d-flex justify-content-center">
+                                    <button type="submit" class="btn">Search</button>
+                                </div>
+
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="services">
+            <div class="container">
+                <div class="row align-items-start">
+                    <div class="col-lg-6 d-flex justify-content-end">
+                        <img src="assets/Mask group.png" alt="services" class="img-fluid services">
+                    </div>
+                    <div class="col-lg-6">
+                        <h1 class="title">We Help You To Find</br> Your Dream Home</h1>
+                        <p class="description">From cozy cottages to luxurious estates, our dedicated team guides you
+                            through every step of the journey, ensuring your dream home becomes a reality
+                        </p>
+                        <div class="row">
+                            <div class="col-4 numbers">
+                                <h2 class="title mb-0 mt-5">8K+</h2>
+                                <p class="description">Houses Available</p>
+                            </div>
+                            <div class="col-4 numbers">
+                                <h2 class="title mb-0 mt-5">8K+</h2>
+                                <p class="description">Houses Available</p>
+                            </div>
+                            <div class="col-4 numbers">
+                                <h2 class="title mb-0 mt-5">8K+</h2>
+                                <p class="description">Houses Available</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="why-us">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="title">Why Choose Us</h2>
+                        <p class="description">
+                            Elevating Your Home Buying Experience with Expertise, Integrity,
+                            and Unmatched Personalized Service
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="feature-card">
+                            <div class="icon-box">
+                                <img src="assets/Vector.svg" alt="Expert Guidance">
+                            </div>
+                            <h5>Expert Guidance</h5>
+                            <p class="description mb-0 mt-1">Benefit from our team's seasoned expertise for a smooth
+                                buying
+                                experience</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="feature-card">
+                            <div class="icon-box">
+                                <img src="assets/service.svg" alt="Expert Guidance">
+                            </div>
+                            <h5>Personalized Service</h5>
+                            <p class="description mb-0 mt-1">Our services adapt to your unique needs, making your
+                                journey stress-free</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="feature-card">
+                            <div class="icon-box">
+                                <img src="assets/document.svg" alt="Expert Guidance">
+                            </div>
+                            <h5>Transparent Process</h5>
+                            <p class="description mb-0 mt-1">Stay informed with our clear and honest approach to buying
+                                your home</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="feature-card">
+                            <div class="icon-box">
+                                <img src="assets/Clip path group.svg" alt="Expert Guidance">
+                            </div>
+                            <h5>Exceptional Support</h5>
+                            <p class="description mb-0 mt-1">Providing peace of mind with our responsive and attentive
+                                customer service</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="popular-residences">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="title">Our Popular Residences</h2>
+                    </div>
+                </div>
+                <div class="row g-4">
+
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="residence-card">
+                            <img src="assets/Mask group (1).png" alt="Residence 1" class="residence-img">
+
+                            <div class="residence-content">
+
+                                <div class="card-location">
+                                    <img src="assets/location (1).svg" alt="location">
+                                    <span>San Francisco, California</span>
+                                </div>
+
+                                <div class="row card-specs">
+                                    <div class="col-6 spec-item">
+                                        <div class="spec-icon-box"> <img src="assets/rooms.svg" alt="rooms">
+                                        </div>
+                                        <span>4 Rooms</span>
+                                    </div>
+                                    <div class="col-6 spec-item">
+                                        <div class="spec-icon-box"> <img src="assets/size.svg" alt="area">
+                                        </div>
+                                        <span>3,500 sq ft</span>
+                                    </div>
+                                </div>
+
+                                <div class="row align-items-center card-footer-cta">
+                                    <div class="col-auto">
+                                        <a href="#" class="btn">Sign up</a>
+                                    </div>
+                                    <div class="col">
+                                        <span class="card-price">$2,500,000</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="residence-card">
+                            <img src="assets/Mask group (1).png" alt="Residence 1" class="residence-img">
+
+                            <div class="residence-content">
+
+                                <div class="card-location">
+                                    <img src="assets/location (1).svg" alt="location">
+                                    <span>San Francisco, California</span>
+                                </div>
+
+                                <div class="row card-specs">
+                                    <div class="col-6 spec-item">
+                                        <div class="spec-icon-box"> <img src="assets/rooms.svg" alt="rooms">
+                                        </div>
+                                        <span>4 Rooms</span>
+                                    </div>
+                                    <div class="col-6 spec-item">
+                                        <div class="spec-icon-box"> <img src="assets/size.svg" alt="area">
+                                        </div>
+                                        <span>3,500 sq ft</span>
+                                    </div>
+                                </div>
+
+                                <div class="row align-items-center card-footer-cta">
+                                    <div class="col-auto">
+                                        <a href="#" class="btn">Sign up</a>
+                                    </div>
+                                    <div class="col">
+                                        <span class="card-price">$2,500,000</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="residence-card">
+                            <img src="assets/Mask group (1).png" alt="Residence 1" class="residence-img">
+
+                            <div class="residence-content">
+
+                                <div class="card-location">
+                                    <img src="assets/location (1).svg" alt="location">
+                                    <span>San Francisco, California</span>
+                                </div>
+
+                                <div class="row card-specs">
+                                    <div class="col-6 spec-item">
+                                        <div class="spec-icon-box"> <img src="assets/rooms.svg" alt="rooms">
+                                        </div>
+                                        <span>4 Rooms</span>
+                                    </div>
+                                    <div class="col-6 spec-item">
+                                        <div class="spec-icon-box"> <img src="assets/size.svg" alt="area">
+                                        </div>
+                                        <span>3,500 sq ft</span>
+                                    </div>
+                                </div>
+
+                                <div class="row align-items-center card-footer-cta">
+                                    <div class="col-auto">
+                                        <a href="#" class="btn">Sign up</a>
+                                    </div>
+                                    <div class="col">
+                                        <span class="card-price">$2,500,000</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="title">What People Say<br>About Dwello</h2>
+                    </div>
+                </div>
+                <div id="testimonialCarousel" class="carousel slide" data-bs-ride="false">
+
+                    <div class="carousel-inner">
+
+                        <div class="carousel-item active">
+                            <div class="row g-4">
+
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="testimonial-card">
+                                        <img src="assets/image (26).png" alt="Testimonial room" class="testimonial-img">
+
+                                        <div class="testimonial-content">
+                                            <div class="user-header">
+                                                <img src="assets/image (35) 1.png" alt="Sarah Nguyen"
+                                                    class="user-avatar">
+                                                <div class="user-info">
+                                                    <h5>Sarah Nguyen</h5>
+                                                    <span>San Francisco</span>
+                                                </div>
+                                                <div class="user-rating">
+                                                    <span><img src="assets/Star 1.svg" alt=""></span> <span>5.0</span>
+                                                </div>
+                                            </div>
+
+                                            <p class="testimonial-text">
+                                                Dwello truly cares about their clients. They listened to my needs and
+                                                preferences
+                                                and helped me find the perfect home in the Bay Area. Their
+                                                professionalism and
+                                                attention to detail are unmatched.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="testimonial-card">
+                                        <img src="assets/image (26).png" alt="Testimonial room" class="testimonial-img">
+
+                                        <div class="testimonial-content">
+                                            <div class="user-header">
+                                                <img src="assets/image (35) 1.png" alt="Sarah Nguyen"
+                                                    class="user-avatar">
+                                                <div class="user-info">
+                                                    <h5>Sarah Nguyen</h5>
+                                                    <span>San Francisco</span>
+                                                </div>
+                                                <div class="user-rating">
+                                                    <span><img src="assets/Star 1.svg" alt=""></span> <span>5.0</span>
+                                                </div>
+                                            </div>
+
+                                            <p class="testimonial-text">
+                                                Dwello truly cares about their clients. They listened to my needs and
+                                                preferences
+                                                and helped me find the perfect home in the Bay Area. Their
+                                                professionalism and
+                                                attention to detail are unmatched.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="testimonial-card">
+                                        <img src="assets/image (26).png" alt="Testimonial room" class="testimonial-img">
+
+                                        <div class="testimonial-content">
+                                            <div class="user-header">
+                                                <img src="assets/image (35) 1.png" alt="Sarah Nguyen"
+                                                    class="user-avatar">
+                                                <div class="user-info">
+                                                    <h5>Sarah Nguyen</h5>
+                                                    <span>San Francisco</span>
+                                                </div>
+                                                <div class="user-rating">
+                                                    <span><img src="assets/Star 1.svg" alt=""></span> <span>5.0</span>
+                                                </div>
+                                            </div>
+
+                                            <p class="testimonial-text">
+                                                Dwello truly cares about their clients. They listened to my needs and
+                                                preferences
+                                                and helped me find the perfect home in the Bay Area. Their
+                                                professionalism and
+                                                attention to detail are unmatched.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row g-4">
+
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="testimonial-card">
+                                        <img src="assets/image (26).png" alt="Testimonial room" class="testimonial-img">
+
+                                        <div class="testimonial-content">
+                                            <div class="user-header">
+                                                <img src="assets/image (35) 1.png" alt="Sarah Nguyen"
+                                                    class="user-avatar">
+                                                <div class="user-info">
+                                                    <h5>Sarah Nguyen</h5>
+                                                    <span>San Francisco</span>
+                                                </div>
+                                                <div class="user-rating">
+                                                    <span><img src="assets/Star 1.svg" alt=""></span> <span>5.0</span>
+                                                </div>
+                                            </div>
+
+                                            <p class="testimonial-text">
+                                                Dwello truly cares about their clients. They listened to my needs and
+                                                preferences
+                                                and helped me find the perfect home in the Bay Area. Their
+                                                professionalism and
+                                                attention to detail are unmatched.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="testimonial-card">
+                                        <img src="assets/image (26).png" alt="Testimonial room" class="testimonial-img">
+
+                                        <div class="testimonial-content">
+                                            <div class="user-header">
+                                                <img src="assets/image (35) 1.png" alt="Sarah Nguyen"
+                                                    class="user-avatar">
+                                                <div class="user-info">
+                                                    <h5>Sarah Nguyen</h5>
+                                                    <span>San Francisco</span>
+                                                </div>
+                                                <div class="user-rating">
+                                                    <span><img src="assets/Star 1.svg" alt=""></span> <span>5.0</span>
+                                                </div>
+                                            </div>
+
+                                            <p class="testimonial-text">
+                                                Dwello truly cares about their clients. They listened to my needs and
+                                                preferences
+                                                and helped me find the perfect home in the Bay Area. Their
+                                                professionalism and
+                                                attention to detail are unmatched.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="testimonial-card">
+                                        <img src="assets/image (26).png" alt="Testimonial room" class="testimonial-img">
+
+                                        <div class="testimonial-content">
+                                            <div class="user-header">
+                                                <img src="assets/image (35) 1.png" alt="Sarah Nguyen"
+                                                    class="user-avatar">
+                                                <div class="user-info">
+                                                    <h5>Sarah Nguyen</h5>
+                                                    <span>San Francisco</span>
+                                                </div>
+                                                <div class="user-rating">
+                                                    <span><img src="assets/Star 1.svg" alt=""></span> <span>5.0</span>
+                                                </div>
+                                            </div>
+
+                                            <p class="testimonial-text">
+                                                Dwello truly cares about their clients. They listened to my needs and
+                                                preferences
+                                                and helped me find the perfect home in the Bay Area. Their
+                                                professionalism and
+                                                attention to detail are unmatched.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                                    <div class="col-auto">
+                                        <div class="testimonial-nav">
+
+                                            <button class="nav-arrow" type="button"
+                                                data-bs-target="#testimonialCarousel" data-bs-slide="prev"
+                                                aria-label="Previous">
+                                                <i class="bi bi-chevron-left"></i>
+                                            </button>
+
+                                            <button class="nav-arrow" type="button"
+                                                data-bs-target="#testimonialCarousel" data-bs-slide="next"
+                                                aria-label="Next">
+                                                <i class="bi bi-chevron-right"></i>
+                                            </button>
+
+                                        </div>
+                                    </div>
+                                </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-cta">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="title">Do You Have Any Questions?<br>Get Help From Us</h2>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center g-4 g-lg-5">
+                    <div class="col-lg-auto col-md-6 col-12 text-center">
+                        <a href="#" class="info-link">
+                            <i class="bi bi-chat-dots"></i> <span>Chat live with our support team</span>
+                        </a>
+                    </div>
+                    <div class="col-lg-auto col-md-6 col-12 text-center">
+                        <a href="#" class="info-link">
+                            <i class="bi bi-journal-text"></i> <span>Browse our FAQ</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <form class="subscribe-form">
+                            <div class="input-group">
+                                <span class="input-group-text">
+                                    <i class="bi bi-envelope"></i> </span>
+                                <input type="email" class="form-control" placeholder="Enter your email address...">
+                                <button class="btn" type="submit">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row g-5">
+
+                <div class="col-lg-3 col-md-12 col-12">
+                    <a class="footer-logo" href="#">
+                        <img src="assets/logo (2).svg" alt="Logo" class="logo-img" />
+                    </a>
+                    <p class="footer-description">
+                        Bringing you closer to your dream home, one click at a time.
+                    </p>
+                </div>
+
+                <div class="col-lg-2 col-md-6 col-12">
+                    <h5 class="footer-title">About</h5>
+                    <ul class="list-unstyled footer-links">
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Our Team</a></li>
+                        <li><a href="#">Resources</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-md-6 col-12">
+                    <h5 class="footer-title">Support</h5>
+                    <ul class="list-unstyled footer-links">
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-md-6 col-12">
+                    <h5 class="footer-title">Find Us</h5>
+                    <ul class="list-unstyled footer-links">
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">Locations</a></li>
+                        <li><a href="#">Newsletter</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-12">
+                    <h5 class="footer-title">Our Social</h5>
+                    <ul class="list-unstyled footer-links">
+                        <li>
+                            <a href="#">
+                                <img src="assets/instagram.svg" alt="">
+                                <span>Instagram</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="assets/facebook.svg" alt="">
+                                <span>Facebook</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="assets/twitterx.svg" alt="">
+                                <span>Twitter (x)</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
