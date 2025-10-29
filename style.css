@@ -487,9 +487,8 @@ body {
 
 .site-footer {
   background-color: var(--color-body-secondary);
-
   color: var(--color-text-primary);
-font-weight: 600;
+  font-weight: 600;
   padding-top: 4rem;
   padding-bottom: 2rem;
   margin-top: auto;
@@ -576,6 +575,12 @@ font-weight: 600;
 
   .feature-card {
     margin-bottom: 2rem;
+  }
+  .services .title{
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
   }
 }
 
