@@ -487,51 +487,54 @@ body {
 
 .site-footer {
   background-color: var(--color-body-secondary);
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
 
-.footer-logo {
-  display: block;
-  margin-bottom: 1rem;
-}
-
-.footer-logo .logo-img {
-  margin-left: 0;
-}
-
-.footer-description {
-  color: var(--color-text-secondary);
-  font-weight: 600;
-  font-size: 0.95rem;
-  line-height: 1.6;
-}
-
-.footer-title {
   color: var(--color-text-primary);
+font-weight: 600;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  margin-top: auto;
+  font-size: 1rem;
+}
+
+.tagline {
+  font-size: 0.9rem;
+  margin-top: 0.75rem;
+  max-width: 250px;
+  line-height: 1.5;
+}
+
+.site-footer h5 {
   font-weight: 700;
-  font-size: 1.2rem;
-  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+  margin-bottom: 1.25rem;
+  color: var(--color-text-primary);
 }
 
-.footer-links li {
-  margin-bottom: 0.75rem;
+.site-footer ul {
+  padding-left: 0;
 }
 
-.footer-links a {
-  color: var(--color-text-secondary);
+.site-footer ul li {
+  margin-bottom: 0.6rem;
+}
+
+.site-footer ul li a {
+  color: var(--color-text-primary);
   text-decoration: none;
-  font-weight: 600;
-  font-size: 0.95rem;
-  display: inline-flex;
+  transition: all 0.2s ease-in-out;
+}
+
+.site-footer ul li a:hover {
+  color: var(--color-text-primary-hover);
+  text-decoration: underline;
+}
+
+.social-links li a {
+  display: flex;
   align-items: center;
 }
 
-.footer-links a:hover {
-  color: var(--color-text-primary-hover);
-}
-
-.footer-links a i {
+.social-links i {
   margin-right: 8px;
   font-size: 1.1rem;
 }
@@ -596,7 +599,7 @@ body {
     margin-bottom: 2rem;
   }
 
-  .services .title{
+  .services .title {
     font-size: 36px;
     text-align: center;
   }
